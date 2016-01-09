@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Contact_Organizer.iml" filepath="$PROJECT_DIR$/Contact_Organizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prototyping/prototyping.iml" filepath="$PROJECT_DIR$/prototyping/prototyping.iml" />
     </modules>
   </component>
 </project>
