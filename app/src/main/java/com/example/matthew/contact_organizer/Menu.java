@@ -18,7 +18,7 @@ import android.widget.ListView;
  */
 public class Menu extends ListActivity{
 
-    String classes[] = {"MainActivity", "example1", "example2",
+    String classes[] = {"MainActivity", "TextPlay", "example2",
             "example3", "example4" };
 
     @Override
@@ -53,7 +53,9 @@ public class Menu extends ListActivity{
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        //using class variable instead of action name
+        //using class variable instead of action name from manifest
+        //this means that the name doesnt really need to be defined
+        //in the manifest file
         Intent ourIntent = new Intent(Menu.this, ourClass);
         startActivity(ourIntent);
     }
