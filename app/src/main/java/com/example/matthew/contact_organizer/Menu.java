@@ -18,8 +18,8 @@ import android.widget.ListView;
  */
 public class Menu extends ListActivity{
 
-    String classes[] = {"MainActivity", "TextPlay", "example2",
-            "example3", "example4" };
+    String classes[] = {"MainActivity", "TextPlay", "Email",
+            "Camera", "example4" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class Menu extends ListActivity{
 
     /*
     *
-    *inpute
+    *input
     * l: what list view was clicked
     * v: what view was clicked,
     * position: (coencides with string array)
